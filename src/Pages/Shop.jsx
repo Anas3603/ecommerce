@@ -1,24 +1,20 @@
-import React from 'react'
-import Hero from '../Components/Hero/Hero'
-import Popular from '../Components/Popular/Popular'
-import Offers from '../Components/Offers/Offers'
-import NewCollections from "../Components/NewCollections/NewCollections"
-import Newsletter from '../Components/NewsLetter/Newsletter'
-import Footer from '../Components/Footer/Footer'
-
-
+import Hero from "../components/hero/Hero";
+import Popular from "../components/popular/Popular";
+import Offers from "../components/offers/Offers";
+import NewCollections from "../components/newCollections/NewCollections";
+import Newsletter from "../components/newsLetter/Newsletter";
+import Footer from "../components/footer/Footer";
 
 const Shop = () => {
   return (
     <div>
-      <Hero/>
-      <Popular/>
-      <Offers/>
-      <NewCollections/>
-      <Newsletter/>
-      
+      <Hero />
+      <Popular />
+      <Offers />
+      <NewCollections />
+      <Newsletter />
     </div>
-  )
-}
+  );
+};
 
-export default Shop
+export default Shop;
