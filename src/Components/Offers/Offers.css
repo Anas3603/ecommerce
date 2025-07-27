@@ -1,0 +1,77 @@
+/* Modernized Offers.css */
+.offers {
+  margin: 4rem 2rem;
+  padding: 3rem;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #ffe9d2, #fff9f0);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  font-family: 'Poppins', sans-serif;
+}
+
+.offers-left {
+  flex: 1 1 300px;
+  text-align: left;
+}
+
+.offers-left h1 {
+  font-size: 2.5rem;
+  color: #2e2e2e;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+.offers-left p {
+  font-size: 1.2rem;
+  color: #5a5a5a;
+  margin-bottom: 1.5rem;
+}
+
+.offers-left button {
+  background: linear-gradient(to right, #f76b1c, #ffae00);
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 0.8rem 1.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+.offers-left button:hover {
+  background: linear-gradient(to right, #e55a10, #f88a0c);
+  transform: translateY(-2px);
+}
+
+.offers-right {
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.offers-right img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .offers {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .offers-left,
+  .offers-right {
+    flex: 1 1 100%;
+  }
+
+  .offers-left h1 {
+    font-size: 2rem;
+  }
+}

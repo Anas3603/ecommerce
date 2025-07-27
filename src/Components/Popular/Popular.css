@@ -1,0 +1,43 @@
+.popular {
+  padding: 4rem 2rem;
+  background: linear-gradient(to bottom right, #fefcea, #f1da36);
+  font-family: 'Poppins', sans-serif;
+}
+
+.popular h1 {
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.popular hr {
+  width: 100px;
+  height: 4px;
+  background-color: #f8b500;
+  border: none;
+  margin: 0 auto 3rem auto;
+  border-radius: 10px;
+}
+
+.popular-item {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.popular-item img {
+  width: 100%;
+  border-radius: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.popular-item img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
